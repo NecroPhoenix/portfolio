@@ -4155,6 +4155,33 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  animation-name: rainbow;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbow{
+  0% {background-color: #DC0004;}
+  5% {background-color: #DC002D;}
+  10% {background-color: #DC0060;}
+  15% {background-color: #DC0081;}
+  20% {background-color: #DC00A3;}
+  25% {background-color: #DC00D6;}
+  30% {background-color: #A800DC;}
+  35% {background-color: #5400DC;}
+  40% {background-color: #0009DC;}
+  45% {background-color: #005DDC;}
+  50% {background-color: #00A0DC;}
+  55% {background-color: #00DBDC;}
+  60% {background-color: #00DCB3;}
+  65% {background-color: #00DC78;}
+  70% {background-color: #00DC35;}
+  75% {background-color: #0FDC00;}
+  80% {background-color: #52DC00;}
+  85% {background-color: #B7DC00;}
+  90% {background-color: #DC9400;}
+  95% {background-color: #DC4800;}
+  100% {background-color: #DC0000;}
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
