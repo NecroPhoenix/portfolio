@@ -4155,10 +4155,25 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  animation-name: rainbow;
+  animation-name: fire;
   animation-duration: 120s;
   animation-iteration-count: infinite;
 }
+
+@keyframes fire{
+0% {background-color: #F44336;}
+10% {background-color: #FF5722;}
+20% {background-color: #FF9800;}
+30% {background-color: #FFC107;}
+40% {background-color: #FFEB3B;}
+50% {background-color: #FFC107;}
+60% {background-color: #FF9800;}
+70% {background-color: #FF5722;}
+80% {background-color: #F44336;}
+90% {background-color: #FF9800;}
+100% {background-color: #F44336;}
+}
+
 @keyframes rainbow{
   0% {background-color: #DC0004;}
   5% {background-color: #DC002D;}
@@ -4181,7 +4196,6 @@ textarea.form-control-lg {
   90% {background-color: #DC9400;}
   95% {background-color: #DC4800;}
   100% {background-color: #DC0000;}
-
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11546,7 +11560,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0,);
   }
   #mainNav .nav-link {
     transition: none;
